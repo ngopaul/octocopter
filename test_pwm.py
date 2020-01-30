@@ -8,7 +8,7 @@ i2c_bus = busio.I2C(SCL, SDA)
 
 pca = PCA9685(i2c_bus)
 
-pca.frequency = 80
+pca.frequency = 800
 
 user_input = 0
 
